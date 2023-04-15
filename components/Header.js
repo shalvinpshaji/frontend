@@ -10,7 +10,7 @@ export default function Header() {
       </Head>
       <div className="flex h-20 w-screen bg-slate-700 text-slate-200 border-l-emerald-500 items-center">
         <Link href={"/"}>
-          <div class="text-3xl px-3">Attendence Manager NITC</div>
+          <div className="text-3xl px-3">Attendence Manager NITC</div>
         </Link>
       </div>
     </div>

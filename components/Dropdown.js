@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const Dropdown = ({ def, name, saver }) => {
+const Dropdown = ({ def, name, saver, items }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [selectedItem, setSelectedItem] = useState(null);
 
@@ -14,12 +14,12 @@ const Dropdown = ({ def, name, saver }) => {
     setIsOpen(false);
   };
 
-  const items = [
-    { id: 1, label: "Item 1" },
-    { id: 2, label: "Item 2" },
-    { id: 3, label: "Item 3" },
-    { id: 4, label: "Item 4" },
-  ];
+  // const items = [
+  //   { id: 1, label: "Item 1" },
+  //   { id: 2, label: "Item 2" },
+  //   { id: 3, label: "Item 3" },
+  //   { id: 4, label: "Item 4" },
+  // ];
 
   return (
     <div className="relative w-full">
